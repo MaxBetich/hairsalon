@@ -7,10 +7,8 @@
 <h4>Add a new stylist</h4>
 @using (Html.BeginForm())
 {
-  <p>Name:</p>
   @Html.LabelFor(model => model.StylistName)
   @Html.TextBoxFor(model => model.StylistName)
-  <p>Details:</p>
   @Html.LabelFor(model => model.StylistDetails)
   @Html.TextBoxFor(model => model.StylistDetails)
   <input type="submit" value="Add new stylist" />
