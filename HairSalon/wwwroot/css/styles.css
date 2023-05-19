@@ -10,6 +10,7 @@ h1,h2 {
 }
 
 div#footer {
+  font-weight: bold;
   background-color: bisque;
   border: solid sandybrown;
   padding: 0.5%;
