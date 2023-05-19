@@ -6,7 +6,7 @@
 
 <h2>Are you sure you wish to remove this client?</h2>
 
-@Html.DisplayNameFor(model => model.ClientName): @Html.DisplayFor(model => model.ClientName)
+<p>Name: @Html.DisplayFor(model => model.ClientName)</p>
 @using (Html.BeginForm())
 {
   <input type="submit" value="Delete" />

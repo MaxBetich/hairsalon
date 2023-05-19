@@ -12,10 +12,8 @@
 {
   @Html.HiddenFor(model => model.StylistId)
   <p>Name:</p>
-  @Html.LabelFor(model => model.StylistName)
   @Html.EditorFor(model => model.StylistName)
   <p>Details:</p>
-  @Html.LabelFor(model => model.StylistDetails)
   @Html.EditorFor(model => model.StylistDetails)
   <input type="submit" value="Save" />
 }

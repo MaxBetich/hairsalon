@@ -7,8 +7,8 @@
 
 <h2>Stylist Details</h2>
 <hr />
-<h3>@Html.DisplayNameFor(model => model.StylistName): @Html.DisplayFor(model => model.StylistName)</h3>
-<p>@Html.DisplayNameFor(model => model.StylistDetails): @Html.DisplayFor(model => model.StylistDetails)</p>
+<h3>Stylist: @Html.DisplayFor(model => model.StylistName)</h3>
+<p>@Html.DisplayFor(model => model.StylistDetails)</p>
 @if (@Model.Clients.Count == 0)
 {
   <h3>No clients currently registered to this stylist.</h3>

@@ -5,13 +5,13 @@
 @model HairSalon.Models.Client
 
 <h4>Add a new client</h4>
-
+<p>Clients will only be created if at least one stylist is currently registered.</p>
 @using (Html.BeginForm())
 {
-  @Html.LabelFor(model => model.ClientName)
+  <p>Client Name:</p>
   @Html.TextBoxFor(model => model.ClientName)
 
-  @Html.LabelFor(model => model.Stylist)
+  <p>Stylist:</p>
   @Html.DropDownList("StylistId")
   <input type="submit" value="Add new client" class="btn btn-default" />
 }
