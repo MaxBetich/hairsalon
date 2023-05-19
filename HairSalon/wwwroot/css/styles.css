@@ -1,0 +1,17 @@
+body {
+  background-color: antiquewhite;
+  border: solid black;
+  padding: 1%;
+  margin: 1%;
+}
+
+h1,h2 {
+  color: brown;
+}
+
+div#footer {
+  background-color: bisque;
+  border: solid sandybrown;
+  padding: 0.5%;
+  margin: 1%;
+}
