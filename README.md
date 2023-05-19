@@ -6,6 +6,7 @@
 
 * _C#/.NET v6_
 * _HTML_
+* _CSS_
 * _MySQL 8.0_
 
 ## Description
