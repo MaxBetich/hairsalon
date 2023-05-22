@@ -21,7 +21,7 @@ This application uses a database to track a list of stylists employed by Claire'
 ```json
 {
   "ConnectionStrings": {
-      "DefaultConnection": "Server=localhost;Port=3306;database=to_do_list_with_ef_core;uid=[UID HERE];pwd=[PWD HERE];"
+      "DefaultConnection": "Server=localhost;Port=3306;database=max_betich;uid=[UID HERE];pwd=[PWD HERE];"
   }
 }
 ```
